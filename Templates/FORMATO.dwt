@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Documento sin título</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../ESTILOS/ESTILOS.css" rel="stylesheet" type="text/css" />
+<link href="../SpryAssets/SpryMenuBarVertical.css" rel="stylesheet" type="text/css" />
+<script src="../SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+<div class="container">
+  <div class="header"><!-- end .header --><img src="../IMAGENES/BANNER-LENIN PALADINES.png" width="800" height="160" usemap="#Map" border="0" />
+    <map name="Map" id="Map">
+      <area shape="rect" coords="267,9,533,40" href="../calificaciones.html" />
+      <area shape="circle" coords="94,86,76" href="../diseno.html" />
+      <area shape="circle" coords="654,93,67" href="../matematicas.html" />
+      <area shape="rect" coords="333,50,480,149" href="../index.html" />
+    </map>
+  </div>
+<div class="sidebar1">
+    <ul id="MenuBar2" class="MenuBarVertical">
+      <li><a href="../index.html">INICIO</a></li>
+      <li><a href="../quienes.html">QUIENES SOMOS?</a></li>
+      <li><a class="MenuBarItemSubmenu" href="#">RECUPERACIONES</a>
+        <ul>
+          <li><a class="MenuBarItemSubmenu" href="#">TRONCO COM&Uacute;N</a>
+            <ul>
+              <li><a href="../matematicas.html">MATEMATICA</a></li>
+              <li><a href="../ingles.html">INGLES</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="MenuBarItemSubmenu">MATERIAS T&Eacute;CNICAS</a>
+            <ul>
+              <li><a href="../diseno.html">DISE&Ntilde;O WEB</a></li>
+              <li><a href="../soporte.html">SOPORTE T&Eacute;CNICO</a></li>
+              <li><a href="../sistemas.html">SISTEMAS OPERATIVOS</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="../calificaciones.html">CALIFICACIONES</a></li>
+<!-- end .sidebar1 -->
+    </ul>
+  <!-- TemplateBeginEditable name="editable1" -->
+  <p>editable</p>
+  <p>1</p>
+  <!-- TemplateEndEditable --></div>
+  
+  <div class="content"><!-- TemplateBeginEditable name="editable2" -->
+    <h1>Instrucciones</h1>
+    <p>Ta en cuenta que la CSS para estos diseños cuenta con numerosos comentarios. Si realiza la mayor parte de su trabajo en la vista Diseño, eche un vistazo al código para obtener sugerencias sobre cómo trabajar con la CSS para diseños fijos. Puede quitar estos comentarios antes de lanzar el sitio. Para obtener más información sobre las técnicas usadas en estos diseños CSS, lea este artículo en el Centro de desarrolladores de Adobe: <a href="http://www.adobe.com/go/adc_css_layouts">http://www.adobe.com/go/adc_css_layouts</a>.</p>
+    <h2>Método de borrado</h2>
+    <p>Dado que todas las columnas son flotantes, este diseño usa una declaración clear:both en la regla .footer. Esta técnica de borrado fuerza a .container a conocer dónde terminan las columnas con el fin de mostrar cualquier borde o color de fondo que coloque en .container. Si su diseño exige la eliminación de .footer de .container, deberá usar un método de borrado diferente. El más fiable consiste en añadir una &lt;br class=&quot;clearfloat&quot; /&gt; o &lt;div  class=&quot;clearfloat&quot;&gt;&lt;/div&gt; tras la última columna flotante (pero antes de que se cierre .container). Esto proporcionará el mismo efecto de borrado.</p>
+    <h3>Sustitución de logotipo</h3>
+    <p>Se ha utilizado un marcador de posición de imagen en el .header de este diseño, en el que lo más probable es que desee colocar un logotipo. Se recomienda quitar el marcador de posición y reemplazarlo por su propio logotipo vinculado. </p>
+    <p> Tenga en cuenta que si utiliza el inspector de propiedades para navegar hasta la imagen de su logotipo empleando el campo Origen (en lugar de quitar y reemplazar el marcador de posición), deberá quitar el fondo en línea y mostrar las propiedades. Estos estilos en línea sólo se utilizan para hacer que el marcador de posición del logotipo aparezca en los navegadores para fines de demostración. </p>
+    <p>Para quitar los estilos en línea, asegúrese de que el panel Estilos CSS está configurado como Actual. Seleccione la imagen y, en la sección Propiedades del panel Estilos CSS, haga clic con el botón derecho del ratón y elimine las propiedades de visualización y de fondo. (Por supuesto que siempre podrá ir directamente al código y eliminar allí los estilos en línea de la imagen o el marcador de posición.)</p>
+    <h4>Fondos</h4>
+    <p>Por naturaleza, el color de fondo de cualquier div sólo se muestra a lo largo del contenido. Esto significa que si está usando un color de fondo o un borde para crear el aspecto de una columna lateral, éste no se extenderá hasta el pie de página, sino que se detendrá donde termine el contenido. Si la div de .content siempre va a incluir más contenido, puede colocar un borde en la div de .content para separarla de la columna.</p>
+  <!-- TemplateEndEditable -->
+  <!-- end .content --></div>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <div class="footer">
+    <p><strong><em>Dirección: Cayambe: Panamericana norte km 1/2 Sector Ishigto</em></strong></p>
+    <p><strong><em>Elaborado por: PALADINES LENIN</em></strong></p>
+    <!-- end .footer --></div>
+  <!-- end .container --></div>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgRight:"../SpryAssets/SpryMenuBarRightHover.gif"});
+var MenuBar2 = new Spry.Widget.MenuBar("MenuBar2", {imgRight:"../SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+</body>
+</html>
